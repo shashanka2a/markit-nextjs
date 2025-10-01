@@ -3,10 +3,13 @@
 import { motion } from 'framer-motion';
 import { Button } from './ui/button';
 import { Play } from 'lucide-react';
+import { Header } from './Header';
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen gradient-hero flex items-center justify-center px-6 overflow-hidden">
+    <>
+      <Header />
+      <section className="relative min-h-screen gradient-hero flex items-center justify-center px-6 overflow-hidden pt-20">
       {/* Animated particles */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="particle absolute top-20 left-20 w-2 h-2 bg-violet-400 rounded-full opacity-60"></div>
@@ -74,5 +77,6 @@ export function Hero() {
         </motion.div>
       </div>
     </section>
+    </>
   );
 }

@@ -13,6 +13,11 @@ export const metadata: Metadata = {
   description: "One hub, many SaaS tools. Simplify forms, QR codes, and hiring — all in one place.",
   keywords: ["forms", "QR codes", "hiring", "SaaS", "business tools", "productivity"],
   authors: [{ name: "Markit.one" }],
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   openGraph: {
     title: "Markit.one - Simplify forms, QR codes, and hiring",
     description: "One hub, many SaaS tools. Simplify forms, QR codes, and hiring — all in one place.",
